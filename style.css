@@ -1,0 +1,85 @@
+/*
+Theme Name: Palace Cafe
+Version: 1.0
+Author: Joseph Holsten
+Author URI: http://josephholsten.com
+*/
+ 
+body {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+ 
+.subscribe {
+	color: #FC9C14;
+}
+ 
+body,
+td,
+th,
+a:link,
+a:visited,
+a:hover,
+a:active,
+.style1,
+.style6,
+.style8,
+.style12,
+.style11,
+.article p,
+.article h3 {
+	color: #FFB340;
+}
+body,
+.style1,
+.style6,
+.style7,
+.style8,
+.style12,
+.style11,
+.article p,
+.article h3,
+.subscribe {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style7,
+.style6,
+.style8,
+.style11,
+.style13,
+.article p,
+.article h3 {
+	font-size: 14px;
+}
+.style6,
+.article h3 {
+	font-weight: bold;
+}
+.centered {
+	text-align: center;
+}
+hr {
+	color: #fd9b14;
+	background-color: #fd9b14;
+	height: 1px;
+	width: 25%;
+	border: none;
+}
+h3 .note {
+	display: block;
+	font-size: x-small;
+}
+.article {
+	margin-left: 37px;
+	margin-right: 37px;
+}
+.tt-flickr-Square img {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.footer {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1em;
+}
