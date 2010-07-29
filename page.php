@@ -6,7 +6,7 @@
 get_header(); ?>
 
   <div id="header">
-    <a href="http://palacetulsa.com"><img src="<?php bloginfo('template_directory'); ?>/images/logo_sans_bar.jpg"></a>
+    <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo_sans_bar.jpg"></a>
   </div>
 
   <div id="main">
