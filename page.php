@@ -5,57 +5,25 @@
 
 get_header(); ?>
 
-<center>
-<table border="0" cellspacing="0" cellpadding="0" background="<?php bloginfo('template_directory'); ?>/images/BACKGROUND.jpg" height="100%">
-	<tr>
-		<td colspan=3><a href="<?php bloginfo('url'); ?>"><img border="no" src="<?php bloginfo('template_directory'); ?>/images/logo.jpg"><br></a></td>
-	</tr>
-	<tr>
-		<td>&nbsp;</td>
-		<td valign="top">
-			<?php get_sidebar(); ?>
-		<br></td>
+  <div id="header">
+    <a href="http://palacetulsa.com"><img src="http://palacetulsa.com/wp-content/themes/palace_cafe/images/logo_sans_bar.jpg"></a>
+  </div>
 
-		<td width="620">
-<table style="height: 600px;" border="0" cellspacing="0" cellpadding="0" width="620" background="<?php bloginfo('template_directory'); ?>/images/background.jpg">
-<tbody>
-<tr>
-<td width="37" height="43"></td>
-<td width="338">
-<p class="style12" align="left"><span class="style13"> </span></p>
-</td>
-<td width="208"></td>
-<td width="37"></td>
-</tr>
-<tr>
-<td colspan="4">
-	<div class="article"><!-- .article -->
-		<?php the_content('<p>Read the rest of this page &raquo;</p>'); ?>
-					
-		<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
-	</div><!-- /.article -->
-</td>
-</tr>
-<tr>
-<td height="43"></td>
-<td colspan="2"></td>
-<td></td>
-</tr>
-</tbody></table>
-	</td>
-</tr>
-<tr>
-	<td colspan="3">
-		<center>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<img src="<?php bloginfo('template_directory'); ?>/images/linedots.jpg"><br>
-			<br>
-			<br>
-		</center>
-	</td>
-</tr>
-<tr>
-	<td colspan="3" height="100%" valign="bottom">
-		<br>
-		<!-- footer -->
+  <div id="main">
+    <div id="sidebar">
+    <!-- nav -->
+      <?php get_sidebar(); ?>
+    <!-- /nav -->
+    </div>
+    <div id="content">
+      <img class="seperator" src="http://palacetulsa.com/wp-content/themes/palace_cafe/images/linedots.jpg"/>
+
+      <div class="article">
+      <!-- .article -->
+        <?php the_content('<p>Read the rest of this page &raquo;</p>'); ?>
+
+        <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+      <!-- /.article -->
+      </div>
+
 <?php get_footer(); ?>

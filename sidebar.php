@@ -28,16 +28,25 @@
 
 <a href="/links"><img border="no" alt="Links" id="nav.links" src="<?php bloginfo('template_directory'); ?>/images/LINKS.jpg" onMouseOver="document.images['nav.links'].src='<?php bloginfo('template_directory'); ?>/images/links_line.jpg';"  onmouseout="document.images['nav.links'].src='<?php bloginfo('template_directory'); ?>/images/LINKS.jpg';"><br></a><br>
 
-<p>Subscribe to<br>
-Our Newsletter!</p>
-<form style="margin-bottom: 1em;" action="http://josephholsten.createsend.com/t/y/s/dhlttu/" method="post">
-<div>
-<label for="name" class="">Name:</label><br /><input type="text" name="cm-name" id="name" /><br />
-<label for="dhlttu-dhlttu" class="">Email:</label><br /><input type="text" name="cm-dhlttu-dhlttu" id="dhlttu-dhlttu" /><br />
-<input type="submit" value="Subscribe" />
+<div id="subscribe">
+  <p>Subscribe to<br>
+  Our Newsletter!</p>
+  <form action="http://josephholsten.createsend.com/t/y/s/dhlttu/" method="post">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" name="cm-name" id="name" />
+      <label for="dhlttu-dhlttu">Email:</label>
+      <input type="text" name="cm-dhlttu-dhlttu" id="dhlttu-dhlttu" />
+      <input type="submit" value="Subscribe" />
+    </div>
+  </form>
 </div>
-</form>
 
-<p><a style="margin-top: 1em; text-decoration: none" href=" http://www.facebook.com/pages/Tulsa-OK/Palace-Cafe-Tulsa/46177629310"><img style="margin-left: 2px; margin-right: 6px; margin-top: 10px; float:left" src="<?php bloginfo('template_directory'); ?>/images/Connect_dark_small_short.gif" />Visit us on<br>Facebook</a></p>
+<div id="facebook">
+  <p><a href=" http://www.facebook.com/pages/Tulsa-OK/Palace-Cafe-Tulsa/46177629310">
+    <img src="http://palacetulsa.com/wp-content/themes/palace_cafe/images/Connect_dark_small_short.gif" />
+    Visit us on<br>
+    Facebook</a></p>
+</div>
 <?php wp_meta(); ?>
 <!-- /nav -->

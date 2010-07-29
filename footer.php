@@ -4,12 +4,17 @@
  */
 ?>
 
-<div class="footer">PALACE CAFE | 1301 E. 15th Street | Tulsa, OK  74120 | P:  918.582.4321 | F:  918.582.4195</div>
-</td>
-</tr>
-
-</table>
-</center>
-	<?php wp_footer(); ?>
+      <div id="footer">
+        <img class="seperator" src="http://palacetulsa.com/wp-content/themes/palace_cafe/images/linedots.jpg"/>
+        <ul>
+          <li>PALACE CAFE</li>
+          <li>1301 E. 15th Street</li>
+          <li>Tulsa, OK 74120</li>
+          <li>P: 918.582.4321</li>
+          <li>F: 918.582.4195</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

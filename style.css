@@ -1,85 +1,185 @@
 /*
 Theme Name: Palace Cafe
-Version: 1.0
+Version: 2.0
 Author: Joseph Holsten
 Author URI: http://josephholsten.com
 */
  
-body {
-	margin-top:0px;
-	margin-bottom:0px;
-}
- 
-.subscribe {
-	color: #FC9C14;
-}
- 
+/**
+*** Colors ***
+#FC9C14 subscribe
+#FFB340 main body text
+#FFDE39 accented table text (hours page)
+#fd9b14 hr color
+**/
+
 body,
 td,
-th,
 a:link,
 a:visited,
 a:hover,
 a:active,
-.style1,
-.style6,
-.style8,
-.style12,
-.style11,
 .article p,
-.article h3 {
-	color: #FFB340;
+.article h3,
+.accented th,
+#footer {
+  color: #FFB340;
 }
+
+.accented td {
+  color: #FFDE39;
+}
+
+hr {
+	color: #FD9B14;
+	background-color: #FD9B14;
+}
+
+body {
+  background-color: #3F607F;
+}
+
+
+/* Type */
+
+th {
+  font-weight: normal;
+}
+
 body,
-.style1,
-.style6,
-.style7,
-.style8,
-.style12,
-.style11,
 .article p,
 .article h3,
 .subscribe {
 	font-family: Arial, Helvetica, sans-serif;
 }
-.style7,
-.style6,
-.style8,
-.style11,
-.style13,
+
 .article p,
 .article h3 {
 	font-size: 14px;
 }
-.style6,
+
 .article h3 {
 	font-weight: bold;
 }
+
+h3 .note {
+	font-size: x-small;
+}
+
+#footer {
+  font-weight: normal;
+  font-size: 80%;
+}
+
+#facebook a {
+  text-decoration: none;
+}
+
+/* Layout */
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 .centered {
 	text-align: center;
 }
+
 hr {
-	color: #fd9b14;
-	background-color: #fd9b14;
 	height: 1px;
 	width: 25%;
 	border: none;
 }
+
 h3 .note {
 	display: block;
-	font-size: x-small;
 }
-.article {
-	margin-left: 37px;
-	margin-right: 37px;
-}
+
 .tt-flickr-Square img {
   margin-right: 15px;
   margin-bottom: 15px;
 }
-.footer {
-  text-align: center;
-  font-weight: bold;
-  color: black;
-  margin-bottom: 1em;
+
+.seperator {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  display: block;
 }
+
+#header, #main {
+  width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header img {
+  margin-left: 1em;
+}
+
+#sidebar {
+  margin-top: 1em;
+  width: 150px;
+  float: left;
+}
+
+  #subscribe {
+    margin-bottom: 1em;
+  }
+
+    #subscribe label {
+      display: block;
+    }
+
+    #subscribe input {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+
+  #facebook {
+    margin-top: 1em;
+  }
+
+    #facebook img {
+       margin-left: 2px;
+       margin-right: 6px;
+       margin-top: 10px;
+       float: left;
+    }
+
+#content {
+  width: 620px;
+  float: right;
+}
+
+  .article {
+  	margin-left: 37px;
+  	margin-right: 37px;
+    margin-top: 2.5em;
+  }
+
+
+#footer {
+  width: 620px;
+  text-align: center;
+  margin-bottom: 2.5em;
+  margin-top: 3.5em;
+}
+
+  #footer p {
+  	display: inline;
+  }
+
+  #footer ul, #footer li {
+  	display: inline;
+  	margin: 0;
+  	padding: 0;
+  }
+
+    #footer ul li:after {
+    	content: " | ";
+    }
+
+    #footer ul li:last-child:after {
+    	content: "";
+    }
