@@ -44,7 +44,7 @@
 
 <div id="facebook">
   <p><a href=" http://www.facebook.com/pages/Tulsa-OK/Palace-Cafe-Tulsa/46177629310">
-    <img src="http://palacetulsa.com/wp-content/themes/palace_cafe/images/Connect_dark_small_short.gif" />
+    <img src="<?php bloginfo('template_directory'); ?>/images/Connect_dark_small_short.gif" />
     Visit us on<br>
     Facebook</a></p>
 </div>

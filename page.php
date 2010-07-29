@@ -6,7 +6,7 @@
 get_header(); ?>
 
   <div id="header">
-    <a href="http://palacetulsa.com"><img src="http://palacetulsa.com/wp-content/themes/palace_cafe/images/logo_sans_bar.jpg"></a>
+    <a href="http://palacetulsa.com"><img src="<?php bloginfo('template_directory'); ?>/images/logo_sans_bar.jpg"></a>
   </div>
 
   <div id="main">
@@ -16,7 +16,7 @@ get_header(); ?>
     <!-- /nav -->
     </div>
     <div id="content">
-      <img class="seperator" src="http://palacetulsa.com/wp-content/themes/palace_cafe/images/linedots.jpg"/>
+      <img class="seperator" src="<?php bloginfo('template_directory'); ?>/images/linedots.jpg"/>
 
       <div class="article">
       <!-- .article -->

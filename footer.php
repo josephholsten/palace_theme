@@ -5,7 +5,7 @@
 ?>
 
       <div id="footer">
-        <img class="seperator" src="http://palacetulsa.com/wp-content/themes/palace_cafe/images/linedots.jpg"/>
+        <img class="seperator" src="<?php bloginfo('template_directory'); ?><?php bloginfo('template_directory'); ?>/images/linedots.jpg"/>
         <ul>
           <li>PALACE CAFE</li>
           <li>1301 E. 15th Street</li>
