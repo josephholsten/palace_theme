@@ -10,7 +10,7 @@
 
 <a href="/menus"><img border="no" alt="Menus" id="nav.menus" src="<?php bloginfo('template_directory'); ?>/images/MENUS.jpg" onMouseOver="document.images['nav.menus'].src='<?php bloginfo('template_directory'); ?>/images/MENUS_LINE.jpg';"  onmouseout="document.images['nav.menus'].src='<?php bloginfo('template_directory'); ?>/images/MENUS.jpg';"><br></a>
 
-<a href="/winelist"><img border="no" alt="Winelist" id="nav.winelist" src="<?php bloginfo('template_directory'); ?>/images/WINELIST.jpg" onMouseOver="document.images['nav.winelist'].src='<?php bloginfo('template_directory'); ?>/images/WINELIST_LINE.jpg';"  onmouseout="document.images['nav.winelist'].src='<?php bloginfo('template_directory'); ?>/images/WINELIST.jpg';"><br></a>
+<a href="/menus/2010/summer/wine"><img border="no" alt="Winelist" id="nav.winelist" src="<?php bloginfo('template_directory'); ?>/images/WINELIST.jpg" onMouseOver="document.images['nav.winelist'].src='<?php bloginfo('template_directory'); ?>/images/WINELIST_LINE.jpg';"  onmouseout="document.images['nav.winelist'].src='<?php bloginfo('template_directory'); ?>/images/WINELIST.jpg';"><br></a>
 
 <a href="/catering"><img border="no" alt="Catering" id="nav.catering" src="<?php bloginfo('template_directory'); ?>/images/catering.jpg" onMouseOver="document.images['nav.catering'].src='<?php bloginfo('template_directory'); ?>/images/catering_line.jpg';"  onmouseout="document.images['nav.catering'].src='<?php bloginfo('template_directory'); ?>/images/catering.jpg';"><br></a>
 
@@ -27,6 +27,9 @@
 <a href="/contactus"><img border="no" alt="Contact Us" id="nav.contactus" src="<?php bloginfo('template_directory'); ?>/images/contactus.jpg" onMouseOver="document.images['nav.contactus'].src='<?php bloginfo('template_directory'); ?>/images/CONTACTUS_line.jpg';"  onmouseout="document.images['nav.contactus'].src='<?php bloginfo('template_directory'); ?>/images/contactus.jpg';"><br></a>
 
 <a href="/links"><img border="no" alt="Links" id="nav.links" src="<?php bloginfo('template_directory'); ?>/images/LINKS.jpg" onMouseOver="document.images['nav.links'].src='<?php bloginfo('template_directory'); ?>/images/links_line.jpg';"  onmouseout="document.images['nav.links'].src='<?php bloginfo('template_directory'); ?>/images/LINKS.jpg';"><br></a><br>
+
+
+<a href="/blog" style="text-decoration:none">Blog<br></a><br>
 
 <div id="subscribe">
   <p>Subscribe to<br>

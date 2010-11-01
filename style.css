@@ -21,6 +21,8 @@ a:hover,
 a:active,
 .article p,
 .article h3,
+.post p,
+.post h3,
 .accented th,
 #footer {
   color: #FFB340;
@@ -49,16 +51,21 @@ th {
 body,
 .article p,
 .article h3,
+.post p,
+.post h3,
 .subscribe {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .article p,
-.article h3 {
+.article h3,
+.post p,
+.post h3 {
 	font-size: 14px;
 }
 
-.article h3 {
+.article h3,
+.post h3 {
 	font-weight: bold;
 }
 
@@ -152,7 +159,8 @@ h3 .note {
   float: right;
 }
 
-  .article {
+  .article,
+  .post {
   	margin-left: 37px;
   	margin-right: 37px;
     margin-top: 2.5em;

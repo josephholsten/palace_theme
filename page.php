@@ -18,6 +18,8 @@ get_header(); ?>
     <div id="content">
       <img class="seperator" src="<?php bloginfo('template_directory'); ?>/images/linedots.jpg"/>
 
+<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
       <div class="article">
       <!-- .article -->
         <?php the_content('<p>Read the rest of this page &raquo;</p>'); ?>
@@ -25,5 +27,6 @@ get_header(); ?>
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
       <!-- /.article -->
       </div>
+<?php endwhile; ?>
 
 <?php get_footer(); ?>
